@@ -132,4 +132,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # added manually
 NPM_BIN_PATH = r"C:\Users\srini\AppData\Roaming\npm\npm.cmd"
 TAILWIND_APP_NAME = 'theme'
+TAILWIND_CSS = 'css/tailwind.css'
 INTERNAL_IPS = ["127.0.0.1", ]
