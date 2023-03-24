@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6ejmwzrt=5jslbmvf62%^njbhkdjyed$kx3i+6b9$ab78u4aeq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".vercel.app"]
 
 
 # Application definition
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "django_browser_reload.middleware.BrowserReloadMiddleware",
-    
+
 ]
 
 ROOT_URLCONF = 'djtail.urls'
