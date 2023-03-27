@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6ejmwzrt=5jslbmvf62%^njbhkdjyed$kx3i+6b9$ab78u4aeq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".vercel.app"]
+ALLOWED_HOSTS = [".vercel.app","127.0.0.1"]
 
 
 # Application definition
@@ -133,4 +133,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 NPM_BIN_PATH = r"C:\Users\srini\AppData\Roaming\npm\npm.cmd"
 TAILWIND_APP_NAME = 'theme'
 TAILWIND_CSS = 'css/tailwind.css'
-INTERNAL_IPS = ["127.0.0.1", ]
+INTERNAL_IPS = ["127.0.0.1" ]
